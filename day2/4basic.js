@@ -17,4 +17,4 @@ fruits.map((data_buah) => {
   console.log(data_buah);
 });
 
-// fruits.map((buah) => console.log(buah));
+fruits.map((buah) => console.log(buah));

@@ -1,44 +1,23 @@
-let day;
-switch ((day = 5)) {
-  case 0:
-    day = 'Sunday';
-    console.log(' Case 1');
 
+let month;
+switch (new Date().getDay()) {
+  case 0:
+    month = "January";
+     
     break;
   case 1:
-    day = 'Monday';
-    console.log(' Case 2');
+    month = "February";
 
     break;
   case 2:
-    day = 'Tuesday';
-    console.log(' Case 3');
+    month = "March";
 
     break;
   case 3:
-    day = 'Wednesday';
-    console.log(' Case 4');
-
+    month = "April";
+    
     break;
   case 4:
-    day = 'Thursday';
-
-    console.log(' Case 5');
-
-    break;
-  case 5:
-    day = 'Friday';
-    console.log(' Case 6');
-
-    break;
-  case 6:
-    console.log(' Case 7');
-
-    day = 'Saturday';
+    month = "May";
 }
-
-console.log(day);
-
-// let abc = new Date().getDay();
-
-// console.log(abc);
+console.log('the month is:' + month);

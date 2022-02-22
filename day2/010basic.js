@@ -8,4 +8,6 @@ const keys = fruits.keys();
 //   console.log(text);
 // }
 
-console.log(keys)
+//console.log(keys)
+
+console.log(fruits[2]);
