@@ -1,7 +1,7 @@
 //  // ES6
 const x = (x, y) => console.log(x * y);
 
-// x(5, 10);
+ //x(5, 10);
 
 functionKU = (ABC, DATA) => console.log(ABC + DATA);
 

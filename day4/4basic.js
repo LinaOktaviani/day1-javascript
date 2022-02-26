@@ -1,10 +1,10 @@
-// myFunction = async () => {
-//   console.log('Halllo Mars');
-//   await console.log('Halllo Dunia');
-//   console.log('Halllo Jupiter');
-// };
+ myFunction = async () => {
+   console.log('Halllo Mars');
+   await console.log('Halllo Dunia');
+   console.log('Halllo Jupiter');
+ };
 
-// myFunction();
+ //myFunction();
 
 async function myDisplay() {
   console.log('HI John');

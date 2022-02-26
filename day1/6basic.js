@@ -1,23 +1,31 @@
 
-let month;
+let day;
 switch (new Date().getDay()) {
   case 0:
-    month = "January";
+    day = "Sunday";
      
     break;
   case 1:
-    month = "February";
+    day = "Monday";
 
     break;
   case 2:
-    month = "March";
+    day = "Tuesday";
 
     break;
   case 3:
-    month = "April";
-    
+    day = "Wednesday";
+
     break;
   case 4:
-    month = "May";
+    day = "Thursday";
+
+    break;
+  case 5:
+    day = "Friday";
+
+    break;
+  case 6:
+    day = "Saturday"
 }
-console.log('the month is:' + month);
+console.log(day);

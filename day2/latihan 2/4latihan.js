@@ -14,10 +14,9 @@ function myFunction(x, y = 10) {
 
 
 
-let data = 10;
 
 try {
-  data = 999999999999999999;
+  data = 1111111111111;
 
   console.log('Ini benar', data);
 } catch (error) {

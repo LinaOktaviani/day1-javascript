@@ -4,8 +4,8 @@ var x = function(x, y) {
  x(5,10);
 
 
-function functionTEST(){
+ function functionTEST(){
     return console.log('Ini funsiku test')
-}
-functionTEST();
+ }
+ functionTEST();
 
